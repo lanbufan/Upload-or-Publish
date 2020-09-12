@@ -41,9 +41,9 @@ I relied on "rxvist.org/docs" to write this section. Please note that "rxvist" d
 
 If you use UoP data in your research, please cite:
 
-[Upload-or-Publish](https://www.medrxiv.org/content/10.1101/2020.09.04.20188771v1), Lachapelle, F. (2020). COVID-19 Preprints and Their Publishing Rate: An Improved Method. medRxiv. 1-34. doi: https://doi.org/10.1101/2020.09.04.20188771.
+[Upload-or-Publish](https://www.medrxiv.org/content/10.1101/2020.09.04.20188771v1): Lachapelle, F. (2020). COVID-19 Preprints and Their Publishing Rate: An Improved Method. medRxiv. 1-34. doi: https://doi.org/10.1101/2020.09.04.20188771.
 
-[CORD-19 Project](https://arxiv.org/abs/2004.10706), Wang, L. L., Lo, K., Chandrasekhar, Y., Reas, R., Yang, J., Eide, D., ... & Mooney, P. (2020). CORD-19:The Covid-19 Open Research Dataset. ArXiv.
+[CORD-19 Project](https://arxiv.org/abs/2004.10706): Wang, L. L., Lo, K., Chandrasekhar, Y., Reas, R., Yang, J., Eide, D., ... & Mooney, P. (2020). CORD-19:The Covid-19 Open Research Dataset. ArXiv.
 
 ## How to use the UoF API {beta}
 
@@ -103,7 +103,7 @@ UoP_url_base = 'http://heibufan.pythonanywhere.com/json/pp_meta/'
 
 l_pp_to_query = ['10.1101/2020.03.19.998179', doi2, doi3, etc]
 
-for pp__doi in l_pp_to_query:
+for pp_doi in l_pp_to_query:
 
     url_query = f'{UoP_url_base}{pp_doi}'
     raw_data = requests.get(url_query)
