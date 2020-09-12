@@ -52,7 +52,7 @@ If you use UoP data in your research, please cite:
 
 ## How to use the UoF API {beta}
 
-The current beta-version only allows one route "http://heibufan.pythonanywhere.com/json/pp\_meta/doi
+The current beta-version only allows one route "http://heibufan.pythonanywhere.com/json/pp_meta/doi"
 
 For example, if a client want to determine the publication status of a specific COVID-19 preprint, using the doi, the url should be:
 http://heibufan.pythonanywhere.com/json/pp\_meta/10.1101/2020.03.19.998179
