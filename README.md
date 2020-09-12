@@ -46,7 +46,7 @@ I used "rxvist.org/docs" for this section. Please note that "rxvist" draw from t
 
 If you use UoP data in your research, please cite:
 
-[Upload-or-Publish] (https://www.medrxiv.org/content/10.1101/2020.09.04.20188771v1), Lachapelle, F. (2020). COVID-19 Preprints and Their Publishing Rate: An Improved Method. medRxiv. 1-34. doi: https://doi.org/10.1101/2020.09.04.20188771.
+[Upload-or-Publish](https://www.medrxiv.org/content/10.1101/2020.09.04.20188771v1), Lachapelle, F. (2020). COVID-19 Preprints and Their Publishing Rate: An Improved Method. medRxiv. 1-34. doi: https://doi.org/10.1101/2020.09.04.20188771.
 
 [CORD-19 Project](https://arxiv.org/abs/2004.10706), Wang, L. L., Lo, K., Chandrasekhar, Y., Reas, R., Yang, J., Eide, D., ... & Mooney, P. (2020). CORD-19:The Covid-19 Open Research Dataset. ArXiv.
 
@@ -145,7 +145,7 @@ Please feel free to email [me](f.lachapelle@alumni.ubc.ca) if you have any quest
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the Apache License 2.0 - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
