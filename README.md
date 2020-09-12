@@ -25,13 +25,7 @@ The current querying functions of the API are rather limited (see documentation 
 
 ## Methodology
 
-* for more details on the methodology used to generate preprints' publication status, please see [my medRxiv preprint paper here](https://www.medrxiv.org/content/10.1101/2020.09.04.20188771v1).
-
-## TO-DO
-
-1.
-2.
-
+* For more details on the methodology used to generate preprints' publication status, please see [my medRxiv preprint paper here](https://www.medrxiv.org/content/10.1101/2020.09.04.20188771v1).
 
 ## Context
 
@@ -41,7 +35,7 @@ As the COVID-19 pandemic persists around the world, the scientific community con
 
 In the spirit of open science, and especially in the context of the COVID-19 pandemic, I develop a free API. I am running this out of my own pocket. My current plan with Python Everything allows for 100, 000 API queries per day. I strongly encourage intelligent and mindful users. Don't be stupid. Don't query the same data-point over and over. Don't use over-kill parallel processing that will overload the server. If you notice that your requests are not working anymore, just stop your program, ok! Finally, please use a user-agent header that identify you as a user, including your email. I reserve the right to restrict or block clients that are wont follow this etiquette.
 
-I used "rxvist.org/docs" for this section. Please note that "rxvist" draw from the Crossref API documentation.
+I relied on "rxvist.org/docs" to write this section. Please note that "rxvist" draw from the Crossref API documentation to craft their own.
 
 ## How to cite UoP API
 
