@@ -165,4 +165,5 @@ For inspirational support (as in, ah ok, building an API is cool and doable)
 For moral support:
 
 * Heather Thom - Simon Fraser University
-*
+* Philippe Lachapelle - Centre Hospitalier Universitaire de Quebec
+
