@@ -61,8 +61,8 @@ The returned JSON will look like this:
 
 The most important returned metadata is match_status: True=preprint has a peer-reviewed published counterpart; False=preprint doesnt have one (see documentation below).
 
-{"result": {"indx\_pp": 11811,
-            "indx\_pr": 26,
+{"result": {"indx\_pp": 11811,\
+            "indx\_pr": 26,\
             "ti\_pp": "molecular characterization of sars-cov-2 in the first covid-19 cluster in france reveals an amino-acid deletion in nsp2 (asp268del)",
             "ti\_pr": "molecular characterization of sars-cov-2 in the first covid-19 cluster in france reveals an amino acid deletion in nsp2 (asp268del)",
             "fuzz\_score": 99,
