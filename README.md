@@ -65,36 +65,36 @@ The most important returned metadata is match_status: True=preprint has a peer-r
 ```json
 {"result": {"indx_pp": 11811,
             "indx_pr": 26,
-            "ti_pp": "molecular characterization of sars-cov-2 in the first covid-19 cluster in france reveals an amino-acid deletion in nsp2 (asp268del)",\
-            "ti_pr": "molecular characterization of sars-cov-2 in the first covid-19 cluster in france reveals an amino acid deletion in nsp2 (asp268del)",\
-            "fuzz\score": 99,\
-            "no_fuzz\_test": 1,\
-            "no_fuzz\_test\_above": 1,\
-            "prop_au\_match": 1.0,\
-            "z_fuzzy\_test\_history": [],\
-            "au\_pp": "Bal, Antonin; Destras, Gr\u00e9gory; Gaymard, Alexandre; Bouscambert-Duchamp, Maude; Valette, Martine; Escuret, Vanessa; Frobert, Emilie; Billaud, Genevi\u00e8ve; Trouillet-Assant, Sophie; Cheynet, Val\u00e9rie; Brengel-Pesce, Karen; Morfin, Florence; Lina, Bruno; Josset, Laurence",\
-            "au\_pr": "Bal, A.; Destras, G.; Gaymard, A.; Bouscambert-Duchamp, M.; Valette, M.; Escuret, V.; Frobert, E.; Billaud, G.; Trouillet-Assant, S.; Cheynet, V.; Brengel-Pesce, K.; Morfin, F.; Lina, B.; Josset, L.",\
-            "source\_x\_pp": "biorxiv",\
-            "source\_x\_pr": "pmc",\
-            "journal\_pp": "bioRxiv",\
-            "journal\_pr": "Clin Microbiol Infect",\
-            "pub\_time\_pp": "3/21/2020",\
-            "pub\_time\_pr": "3/28/2020",\
-            "cord\_uid\_pp": "wnh6h9f0",\
-            "cord\_uid\_pr": "4c0zwhdh",\
-            "sha\_pp": NaN,\
-            "sha\_pr": NaN,\
-            "pmcid\_pp": NaN,\
-            "pmcid\_pr": "PMC7142683",\
-            "pubmedid\_pp": NaN,\
-            "pubmedid\_pr": 32234449.0,\
-            "doi\_pp": "10.1101/2020.03.19.998179",\
-            "doi\_pr": "10.1016/j.cmi.2020.03.020",
-            "diff\_day": 7,\
-            "internal\_method": "fuzzy",\
-            "match\_status": true,\
-            "cord\_19\_version": "2020_08_12",\
-            "fuzzy\_matching\_date": "2020_08_12"}}\
+            "ti_pp": "molecular characterization of sars-cov-2 in the first covid-19 cluster in france reveals an amino-acid deletion in nsp2 (asp268del)",
+            "ti_pr": "molecular characterization of sars-cov-2 in the first covid-19 cluster in france reveals an amino acid deletion in nsp2 (asp268del)",
+            "fuzz_score": 99,
+            "no_fuzz_test": 1,
+            "no_fuzz_test_above": 1,
+            "prop_au_match": 1.0,
+            "z_fuzzy_test_history": [],
+            "au_pp": "Bal, Antonin; Destras, Gru00e9gory; Gaymard, Alexandre; Bouscambert-Duchamp, Maude; Valette, Martine; Escuret, Vanessa; Frobert, Emilie; Billaud, Geneviu00e8ve; Trouillet-Assant, Sophie; Cheynet, Valu00e9rie; Brengel-Pesce, Karen; Morfin, Florence; Lina, Bruno; Josset, Laurence",
+            "au_pr": "Bal, A.; Destras, G.; Gaymard, A.; Bouscambert-Duchamp, M.; Valette, M.; Escuret, V.; Frobert, E.; Billaud, G.; Trouillet-Assant, S.; Cheynet, V.; Brengel-Pesce, K.; Morfin, F.; Lina, B.; Josset, L.",
+            "source_x_pp": "biorxiv",
+            "source_x_pr": "pmc",
+            "journal_pp": "bioRxiv",
+            "journal_pr": "Clin Microbiol Infect",
+            "pub_time_pp": "3/21/2020",
+            "pub_time_pr": "3/28/2020",
+            "cord_uid_pp": "wnh6h9f0",
+            "cord_uid_pr": "4c0zwhdh",
+            "sha_pp": NaN,
+            "sha_pr": NaN,
+            "pmcid_pp": NaN,
+            "pmcid_pr": "PMC7142683",
+            "pubmedid_pp": NaN,
+            "pubmedid_pr": 32234449.0,
+            "doi_pp": "10.1101/2020.03.19.998179",
+            "doi_pr": "10.1016/j.cmi.2020.03.020",
+            "diff_day": 7,
+            "internal_method": "fuzzy",
+            "match_status": true,
+            "cord_19_version": "2020_08_12",
+            "fuzzy_matching_date": "2020_08_12"}}
 ```
 
 ## How to use the UoF API {beta} - Simple Code Example in Python
@@ -158,7 +158,7 @@ The most important returned metadata is match_status: True=preprint has a peer-r
 "internal\_method": (see methods)\
 "match\_status": True: pp has a pr, False: pp has no pr\
 "cord\_19\_version": version of CORD-19 dataset used for matching algo.\
-"fuzzy\_matching\_date": date when the fuzzy matching code was performed
+"fuzzy\_matching\_date": date when the fuzzy matching code was performed\
 
 ## Contributing
 
