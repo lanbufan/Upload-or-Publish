@@ -1,7 +1,6 @@
 # Upload-or-Publish
-Micro-API to query a COVID-19 preprint's publication status
 
-# Upload-or-Publish API Documentation
+Micro-API to query a COVID-19 preprint's publication status
 
 ## UoP API
 
@@ -17,7 +16,7 @@ The current version (vbeta) covers three preprint servers: arXiv, bioRxiv, and m
 
 Adding your preprint server to UoP
 
-If you are the manager/admin/developer in charge of a preprint repository and you would like to see the COVID-19 preprint manuscripts' metadata added to the UoP API please email [me](f.lachapelle@alumni.ubc.ca). In a nutshell, what I would need is a CSV containing all your COVID-19 preprints's metadata (title, authors, doi, etc..) using CORD-19 metadata formatting. I am aware that some preprint repositories have API capabilities, but at this point, I am NOT planning to extend the UoP coverage by scraping websites or building API pipelines. I do not have the ressources nor the time to accomplish that kind of data architecture.
+If you are the manager/admin/developer in charge of a preprint repository and you would like to see 'your' COVID-19 preprint manuscripts' metadata added to the UoP API please email [me](f.lachapelle@alumni.ubc.ca). In a nutshell, what I would need is a CSV containing all your COVID-19 preprints's metadata (title, authors, doi, etc..) using CORD-19 metadata formatting. I am aware that some preprint repositories have API capabilities, but at this point, I am NOT planning to extend the UoP coverage by scraping websites or building API pipelines. I do not have the ressources nor the time to accomplish that kind of data architecture.
 
 Adding functionalities to UoP
 
@@ -25,7 +24,7 @@ The current querying functions of the API are rather limited (see documentation 
 
 ## Methodology
 
-* for more details on the methodology used to generate preprints' publication status, please see [my preprint manuscript](https://www.medrxiv.org/content/10.1101/2020.09.04.20188771v1).
+* for more details on the methodology used to generate preprints' publication status, please see [my medRxiv preprint paper here](https://www.medrxiv.org/content/10.1101/2020.09.04.20188771v1).
 
 ## TO-DO
 
