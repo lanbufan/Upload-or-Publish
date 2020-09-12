@@ -118,7 +118,7 @@ The most important returned metadata is match_status: True=preprint has a peer-r
 
 'pp' stands for preprint\
 'pr' stands for peer-review\
-'(c)' indicates that the metadate comes from the CORD-19 dataset\
+'(c)' indicates that the metadate comes from the CORD-19 dataset
 
 
 "indx\_pp": internal working id for admin\
