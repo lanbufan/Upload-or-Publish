@@ -5,7 +5,7 @@ Micro-API to query a COVID-19 preprint's publication status
 
 ## UoP API
 
-The micro-API service hosted on PythonEverywhere offers a free, programmatic way for a client to make a query on a COVID-19 preprint's (or a batch of COVID-91 preprints) publication status. The API return a JSON dictionary with CORD-19's enhanced metadata. If the preprint's publication status is positive, then, the API return a JSON containing metadata pertaining to the published article. The UoP API, at least in its current implementation, require no keys/authentication. But please be mindful of the fact that this is an unfunded initiative run by a single person.
+The micro-API service hosted on PythonAnywhere offers a free, programmatic way for a client to make a query on a COVID-19 preprint's (or a batch of COVID-91 preprints) publication status. The API return a JSON dictionary with CORD-19's enhanced metadata. If the preprint's publication status is positive, then, the API return a JSON containing metadata pertaining to the published article. The UoP API, at least in its current implementation, require no keys/authentication. But please be mindful of the fact that this is an unfunded initiative run by a single person.
 
 This tool is currently in its beta-version. It is in active development.
 
