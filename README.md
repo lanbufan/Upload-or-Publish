@@ -138,8 +138,8 @@ The most important returned metadata is match_status: True=preprint has a peer-r
 "journal\_pr": ibid.\
 "pub\_time\_pp": date of preprint upload (c); note: a preprint can have multiple uploaded versions. Still need to validate that CORD-19 always use v1 date\
 "pub\_time\_pr": date of peer-reviewed article's publication (c)\
-"cord\_uid\_pp": preprint's id (c)\ - note: not a unique id
-"cord\_uid\_pr": peer-review's id (c)\ - note: not a unique id
+"cord\_uid\_pp": preprint's id (c) - note: not a unique id\
+"cord\_uid\_pr": peer-review's id (c) - note: not a unique id\
 "sha\_pp": id and name of pdf json of preprint (c)\
 "sha\_pr": id and name of pdf json of article (c)\
 "pmcid\_pp": pub med central id (c)\
@@ -152,7 +152,7 @@ The most important returned metadata is match_status: True=preprint has a peer-r
 "internal\_method": (see methods)\
 "match\_status": True: pp has a pr, False: pp has no pr\
 "cord\_19\_version": version of CORD-19 dataset used for matching algo.\
-"fuzzy\_matching\_date": date when the fuzzy matching code was performed\
+"fuzzy\_matching\_date": date when the fuzzy matching code was performed
 
 ## Contributing
 
