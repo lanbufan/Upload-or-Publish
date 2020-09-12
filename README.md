@@ -97,7 +97,7 @@ The most important returned metadata is match_status: True=preprint has a peer-r
             "fuzzy_matching_date": "2020_08_12"}}
 ```
 
-## How to use the UoF API {beta} - Simple Code Example in Python
+## How to use the UoP API {beta} - Simple Code Example in Python
 
 ```python
 
