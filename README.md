@@ -1,3 +1,4 @@
+
 # Upload-or-Publish
 
 Micro-API to query a COVID-19 preprint's publication status
@@ -61,6 +62,7 @@ The returned JSON will look like this:
 
 The most important returned metadata is match_status: True=preprint has a peer-reviewed published counterpart; False=preprint doesnt have one (see documentation below).
 
+```json
 {"result": {"indx\_pp": 11811,\
             "indx\_pr": 26,\
             "ti\_pp": "molecular characterization of sars-cov-2 in the first covid-19 cluster in france reveals an amino-acid deletion in nsp2 (asp268del)",\
@@ -93,6 +95,28 @@ The most important returned metadata is match_status: True=preprint has a peer-r
             "match\_status": true,\
             "cord\_19\_version": "2020_08_12",\
             "fuzzy\_matching\_date": "2020_08_12"}}\
+```
+
+## How to use the UoF API {beta} - Simple Code Example in Python
+
+```python
+
+import json
+import requests
+from bs4 import BeautifulSoup
+
+UoP_url_base = 'http://heibufan.pythonanywhere.com/json/pp_meta/'
+
+l_pp_to_query = ['10.1101/2020.03.19.998179', doi2, doi3, etc]
+
+for pp__doi in l_pp_to_query:
+
+    url_query = f'{UoP_url_base}{pp_doi}'
+    raw_data = requests.get(url_query)
+    if raw_data.status_code!=200:
+        raise Exception("HTTP code " + str(raw_data.status_code))
+    json_data = json.loads(raw_data.text)
+```
 
 ## Documentation
 
@@ -101,6 +125,7 @@ The most important returned metadata is match_status: True=preprint has a peer-r
 'pp' stands for preprint\
 'pr' stands for peer-review\
 '(c)' indicates that the metadate comes from the CORD-19 dataset\
+
 
 "indx\_pp": internal working id for admin\
 "indx\_pr": internal working id for admin\
