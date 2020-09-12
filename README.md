@@ -63,77 +63,77 @@ The most important returned metadata is match_status: True=preprint has a peer-r
 
 {"result": {"indx\_pp": 11811,\
             "indx\_pr": 26,\
-            "ti\_pp": "molecular characterization of sars-cov-2 in the first covid-19 cluster in france reveals an amino-acid deletion in nsp2 (asp268del)",
-            "ti\_pr": "molecular characterization of sars-cov-2 in the first covid-19 cluster in france reveals an amino acid deletion in nsp2 (asp268del)",
-            "fuzz\_score": 99,
-            "no\_fuzz\_test": 1,
-            "no\_fuzz\_test\_above": 1,
-            "prop\_au\_match": 1.0,
-            "z\_fuzzy\_test\_history": [],
-            "au\_pp": "Bal, Antonin; Destras, Gr\u00e9gory; Gaymard, Alexandre; Bouscambert-Duchamp, Maude; Valette, Martine; Escuret, Vanessa; Frobert, Emilie; Billaud, Genevi\u00e8ve; Trouillet-Assant, Sophie; Cheynet, Val\u00e9rie; Brengel-Pesce, Karen; Morfin, Florence; Lina, Bruno; Josset, Laurence",
-            "au\_pr": "Bal, A.; Destras, G.; Gaymard, A.; Bouscambert-Duchamp, M.; Valette, M.; Escuret, V.; Frobert, E.; Billaud, G.; Trouillet-Assant, S.; Cheynet, V.; Brengel-Pesce, K.; Morfin, F.; Lina, B.; Josset, L.",
-            "source\_x\_pp": "biorxiv",
-            "source\_x\_pr": "pmc",
-            "journal\_pp": "bioRxiv",
-            "journal\_pr": "Clin Microbiol Infect",
-            "pub\_time\_pp": "3/21/2020",
-            "pub\_time\_pr": "3/28/2020",
-            "cord\_uid\_pp": "wnh6h9f0",
-            "cord\_uid\_pr": "4c0zwhdh",
-            "sha\_pp": NaN,
-            "sha\_pr": NaN,
-            "pmcid\_pp": NaN,
-            "pmcid\_pr": "PMC7142683",
-            "pubmedid\_pp": NaN,
-            "pubmedid\_pr": 32234449.0,
-            "doi\_pp": "10.1101/2020.03.19.998179",
+            "ti\_pp": "molecular characterization of sars-cov-2 in the first covid-19 cluster in france reveals an amino-acid deletion in nsp2 (asp268del)",\
+            "ti\_pr": "molecular characterization of sars-cov-2 in the first covid-19 cluster in france reveals an amino acid deletion in nsp2 (asp268del)",\
+            "fuzz\_score": 99,\
+            "no\_fuzz\_test": 1,\
+            "no\_fuzz\_test\_above": 1,\
+            "prop\_au\_match": 1.0,\
+            "z\_fuzzy\_test\_history": [],\
+            "au\_pp": "Bal, Antonin; Destras, Gr\u00e9gory; Gaymard, Alexandre; Bouscambert-Duchamp, Maude; Valette, Martine; Escuret, Vanessa; Frobert, Emilie; Billaud, Genevi\u00e8ve; Trouillet-Assant, Sophie; Cheynet, Val\u00e9rie; Brengel-Pesce, Karen; Morfin, Florence; Lina, Bruno; Josset, Laurence",\
+            "au\_pr": "Bal, A.; Destras, G.; Gaymard, A.; Bouscambert-Duchamp, M.; Valette, M.; Escuret, V.; Frobert, E.; Billaud, G.; Trouillet-Assant, S.; Cheynet, V.; Brengel-Pesce, K.; Morfin, F.; Lina, B.; Josset, L.",\
+            "source\_x\_pp": "biorxiv",\
+            "source\_x\_pr": "pmc",\
+            "journal\_pp": "bioRxiv",\
+            "journal\_pr": "Clin Microbiol Infect",\
+            "pub\_time\_pp": "3/21/2020",\
+            "pub\_time\_pr": "3/28/2020",\
+            "cord\_uid\_pp": "wnh6h9f0",\
+            "cord\_uid\_pr": "4c0zwhdh",\
+            "sha\_pp": NaN,\
+            "sha\_pr": NaN,\
+            "pmcid\_pp": NaN,\
+            "pmcid\_pr": "PMC7142683",\
+            "pubmedid\_pp": NaN,\
+            "pubmedid\_pr": 32234449.0,\
+            "doi\_pp": "10.1101/2020.03.19.998179",\
             "doi\_pr": "10.1016/j.cmi.2020.03.020",
-            "diff\_day": 7,
-            "internal\_method": "fuzzy",
-            "match\_status": true,
-            "cord\_19\_version": "2020_08_12",
-            "fuzzy\_matching\_date": "2020_08_12"}}
+            "diff\_day": 7,\
+            "internal\_method": "fuzzy",\
+            "match\_status": true,\
+            "cord\_19\_version": "2020_08_12",\
+            "fuzzy\_matching\_date": "2020_08_12"}}\
 
 ## Documentation
 
-The most important returned metadata is match\_status: True=preprint has a peer-reviewed published counterpart; False=preprint doesnt have one.
+The most important returned metadata is match_status: True=preprint has a peer-reviewed published counterpart; False=preprint doesnt have one.
 
-'pp' stands for preprint
-'pr' stands for peer-review
-'(c)' indicates that the metadate comes from the CORD-19 dataset
+'pp' stands for preprint\
+'pr' stands for peer-review\
+'(c)' indicates that the metadate comes from the CORD-19 dataset\
 
-"indx\_pp": internal working id for admin
-"indx\_pr": internal working id for admin
-"ti\_pp": title of preprint (c)
-"ti\_pr": title of published/peer-review counterpart (c)
-"fuzz\_score": fuzzy logic score yields from comparing both titles
-"no\_fuzz\_test": total number (raw) of fuzzy mathing score produced (see methods)
-"no\_fuzz\_test\_above": total number of fuzzy matching produced that were above the cut-off point of 0.60
-"prop\_au\_match": proportion of preprint's authors' last names that was found in the list of authors of the pr article
-"z\_fuzzy\_test\_history": list/array of results of all fuzzy matching tests performed if >1
-"au\_pp": list of authors (preprint) (c)
-"au\_pr": list of authors (published version) (c)
-"source\_x\_pp": bibliometric source where CORD-19 got metadata from (c)
-"source\_x\_pr": ibid.
-"journal\_pp": journal venue (c)
-"journal\_pr": ibid.
-"pub\_time\_pp": date of preprint upload (c); note: a preprint can have multiple uploaded versions. Still need to validate that CORD-19 always use v1 date
-"pub\_time\_pr": date of peer-reviewed article's publication (c)
-"cord\_uid\_pp": preprint's id (c)
-"cord\_uid\_pr": peer-review's id (c)
-"sha\_pp": id and name of pdf json of preprint (c)
-"sha\_pr": id and name of pdf json of article (c)
-"pmcid\_pp": pub med central id (c)
-"pmcid\_pr": ibid.
-"pubmedid\_pp": pub med id (c)
-"pubmedid\_pr": pub med id (c)
-"doi\_pp": digital unique identifier note: arXiv doesnt automatically generate doi for the preprint manuscripts its curated. (see methods)
-"doi\_pr": ibid.
-"diff\_day": difference in day between preprint upload and final publication
-"internal\_method": (see methods)
-"match\_status": True: pp has a pr, False: pp has no pr
-"cord\_19\_version": version of CORD-19 dataset used for matching algo.
-"fuzzy\_matching\_date": date when the fuzzy matching code was performed
+"indx\_pp": internal working id for admin\
+"indx\_pr": internal working id for admin\
+"ti\_pp": title of preprint (c)\
+"ti\_pr": title of published/peer-review counterpart (c)\
+"fuzz\_score": fuzzy logic score yields from comparing both titles\
+"no\_fuzz\_test": total number (raw) of fuzzy mathing score produced (see methods)\
+"no\_fuzz\_test\_above": total number of fuzzy matching produced that were above the cut-off point of 0.60\
+"prop\_au\_match": proportion of preprint's authors' last names that was found in the list of authors of the pr article\
+"z\_fuzzy\_test\_history": list/array of results of all fuzzy matching tests performed if >1\
+"au\_pp": list of authors (preprint) (c)\
+"au\_pr": list of authors (published version) (c)\
+"source\_x\_pp": bibliometric source where CORD-19 got metadata from (c)\
+"source\_x\_pr": ibid.\
+"journal\_pp": journal venue (c)\
+"journal\_pr": ibid.\
+"pub\_time\_pp": date of preprint upload (c); note: a preprint can have multiple uploaded versions. Still need to validate that CORD-19 always use v1 date\
+"pub\_time\_pr": date of peer-reviewed article's publication (c)\
+"cord\_uid\_pp": preprint's id (c)\
+"cord\_uid\_pr": peer-review's id (c)\
+"sha\_pp": id and name of pdf json of preprint (c)\
+"sha\_pr": id and name of pdf json of article (c)\
+"pmcid\_pp": pub med central id (c)\
+"pmcid\_pr": ibid.\
+"pubmedid\_pp": pub med id (c)\
+"pubmedid\_pr": pub med id (c)\
+"doi\_pp": digital unique identifier note: arXiv doesnt automatically generate doi for the preprint manuscripts its curated. (see methods)\
+"doi\_pr": ibid.\
+"diff\_day": difference in day between preprint upload and final publication\
+"internal\_method": (see methods)\
+"match\_status": True: pp has a pr, False: pp has no pr\
+"cord\_19\_version": version of CORD-19 dataset used for matching algo.\
+"fuzzy\_matching\_date": date when the fuzzy matching code was performed\
 
 ## Contributing
 
