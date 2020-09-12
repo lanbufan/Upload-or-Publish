@@ -45,7 +45,7 @@ If you use UoP data in your research, please cite:
 
 [CORD-19 Project](https://arxiv.org/abs/2004.10706): Wang, L. L., Lo, K., Chandrasekhar, Y., Reas, R., Yang, J., Eide, D., ... & Mooney, P. (2020). CORD-19:The Covid-19 Open Research Dataset. ArXiv.
 
-## How to use the UoF API {beta}
+## How to use the UoP API {beta}
 
 The current beta-version only allows one route "http://heibufan.pythonanywhere.com/json/pp_meta/doi"
 
