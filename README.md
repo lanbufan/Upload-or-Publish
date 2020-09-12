@@ -55,11 +55,11 @@ If you use UoP data in your research, please cite:
 The current beta-version only allows one route "http://heibufan.pythonanywhere.com/json/pp_meta/doi"
 
 For example, if a client want to determine the publication status of a specific COVID-19 preprint, using the doi, the url should be:
-http://heibufan.pythonanywhere.com/json/pp\_meta/10.1101/2020.03.19.998179
+http://heibufan.pythonanywhere.com/json/pp_meta/10.1101/2020.03.19.998179
 
 The returned JSON will look like this:
 
-The most important returned metadata is match\_status: True=preprint has a peer-reviewed published counterpart; False=preprint doesnt have one (see documentation below).
+The most important returned metadata is match_status: True=preprint has a peer-reviewed published counterpart; False=preprint doesnt have one (see documentation below).
 
 {"result": {"indx\_pp": 11811,
             "indx\_pr": 26,
