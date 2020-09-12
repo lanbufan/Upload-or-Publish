@@ -63,15 +63,15 @@ The returned JSON will look like this:
 The most important returned metadata is match_status: True=preprint has a peer-reviewed published counterpart; False=preprint doesnt have one (see documentation below).
 
 ```json
-{"result": {"indx\_pp": 11811,\
-            "indx\_pr": 26,\
-            "ti\_pp": "molecular characterization of sars-cov-2 in the first covid-19 cluster in france reveals an amino-acid deletion in nsp2 (asp268del)",\
-            "ti\_pr": "molecular characterization of sars-cov-2 in the first covid-19 cluster in france reveals an amino acid deletion in nsp2 (asp268del)",\
-            "fuzz\_score": 99,\
-            "no\_fuzz\_test": 1,\
-            "no\_fuzz\_test\_above": 1,\
-            "prop\_au\_match": 1.0,\
-            "z\_fuzzy\_test\_history": [],\
+{"result": {"indx_pp": 11811,
+            "indx_pr": 26,
+            "ti_pp": "molecular characterization of sars-cov-2 in the first covid-19 cluster in france reveals an amino-acid deletion in nsp2 (asp268del)",\
+            "ti_pr": "molecular characterization of sars-cov-2 in the first covid-19 cluster in france reveals an amino acid deletion in nsp2 (asp268del)",\
+            "fuzz\score": 99,\
+            "no_fuzz\_test": 1,\
+            "no_fuzz\_test\_above": 1,\
+            "prop_au\_match": 1.0,\
+            "z_fuzzy\_test\_history": [],\
             "au\_pp": "Bal, Antonin; Destras, Gr\u00e9gory; Gaymard, Alexandre; Bouscambert-Duchamp, Maude; Valette, Martine; Escuret, Vanessa; Frobert, Emilie; Billaud, Genevi\u00e8ve; Trouillet-Assant, Sophie; Cheynet, Val\u00e9rie; Brengel-Pesce, Karen; Morfin, Florence; Lina, Bruno; Josset, Laurence",\
             "au\_pr": "Bal, A.; Destras, G.; Gaymard, A.; Bouscambert-Duchamp, M.; Valette, M.; Escuret, V.; Frobert, E.; Billaud, G.; Trouillet-Assant, S.; Cheynet, V.; Brengel-Pesce, K.; Morfin, F.; Lina, B.; Josset, L.",\
             "source\_x\_pp": "biorxiv",\
@@ -158,7 +158,7 @@ The most important returned metadata is match_status: True=preprint has a peer-r
 "internal\_method": (see methods)\
 "match\_status": True: pp has a pr, False: pp has no pr\
 "cord\_19\_version": version of CORD-19 dataset used for matching algo.\
-"fuzzy\_matching\_date": date when the fuzzy matching code was performed\
+"fuzzy\_matching\_date": date when the fuzzy matching code was performed
 
 ## Contributing
 
